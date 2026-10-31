@@ -1,4 +1,4 @@
-# ablakarajanlat-hu
+# Ablak Árajánlat
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ablakarajanlat-hu is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ablakarajanlat.hu/
+Ablak Árajánlat (ablakarajanlat.hu) offers a free online plastic window calculator and design tool for Hungarian customers. Users can input custom dimensions to instantly receive manufacturer‑calculated price quotes for double‑ or triple‑glazed windows, without registration. The service provides detailed pricing, material options, and visualizations, helping homeowners and builders plan window replacements efficiently.
+
+**Areas:** Windows · Calculator · Construction · Hungary · Pricing
+
+## Ablak Árajánlat on APIs.io
+
+Everything profiled for Ablak Árajánlat is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ablakarajanlat-hu/](https://apis.io/providers/ablakarajanlat-hu/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [Ablak Árajánlat Agent API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-agent-api/) — The Agent API from Ablak Árajánlat — 7 operation(s) for agent.
+- [Ablak Árajánlat AI API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-ai-api/) — The Ai API from Ablak Árajánlat — 2 operation(s) for ai.
+- [Ablak Árajánlat Coverage API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-coverage-api/) — The Coverage API from Ablak Árajánlat — 1 operation(s) for coverage.
+- [Ablak Árajánlat Estimate API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-estimate-api/) — The Estimate API from Ablak Árajánlat — 1 operation(s) for estimate.
+- [Ablak Árajánlat Knowledge API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-knowledge-api/) — The Knowledge API from Ablak Árajánlat — 1 operation(s) for knowledge.
+- [Ablak Árajánlat MCP API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-mcp-api/) — The Mcp API from Ablak Árajánlat — 1 operation(s) for mcp.
+- [Ablak Árajánlat Quote API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-quote-api/) — The Quote API from Ablak Árajánlat — 1 operation(s) for quote.
+- [Ablak Árajánlat Support API](https://apis.io/apis/ablakarajanlat-hu/ablakarajanlat-hu-support-api/) — The Support API from Ablak Árajánlat — 1 operation(s) for support.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ablakarajanlat Hu Agentic Access](https://apis.io/agentic-access/ablakarajanlat-hu/ablakarajanlat-hu-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AstBridgeRequest](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-ast-bridge-request/)
+- [EstimateRequest](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-estimate-request/)
+- [EstimateResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-estimate-response/)
+- [KnowledgeSearchResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-knowledge-search-response/)
+- [QuoteCreateRequest](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-quote-create-request/)
+- [V1EstimateResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-v1-estimate-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ablakarajanlat Hu Context](https://apis.io/jsonld/ablakarajanlat-hu/ablakarajanlat-hu-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ablak Árajánlat API Rules](https://apis.io/rules/ablakarajanlat-hu/ablakarajanlat-hu-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ablakarajanlat Hu Authentication](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-authentication/)
+- [Ablakarajanlat Hu Domain Security](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ablakarajanlat Hu Scopes](https://apis.io/scopes/ablakarajanlat-hu/ablakarajanlat-hu-scopes/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ablakarajanlat Hu Rate Limits](https://apis.io/rate-limits/ablakarajanlat-hu/ablakarajanlat-hu-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ablakarajanlat.hu/)
+- [Documentation](https://ablakarajanlat.hu/openapi.yaml)
+- [Getting started](https://ablakarajanlat.hu/tervezo)
+- [API reference](https://ablakarajanlat.hu/openapi.yaml)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 59.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ablakarajanlat-hu/](https://apis.io/providers/ablakarajanlat-hu/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ablak Árajánlat: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ablakarajanlat-hu/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
