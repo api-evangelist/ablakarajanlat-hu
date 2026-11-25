@@ -87,13 +87,19 @@ Everything profiled for Ablak Árajánlat is published on APIs.io rather than in
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [ablakarajanlat-hu-mcp.yml](https://apis.io/servers/ablakarajanlat-hu/ablakarajanlat-hu-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Ablakarajanlat Hu Agentic Access](https://apis.io/agentic-access/ablakarajanlat-hu/ablakarajanlat-hu-agentic-access/)
+- [Ablak Árajánlat Agentic Access](https://apis.io/agentic-access/ablakarajanlat-hu/ablakarajanlat-hu-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (8)
 
 The data models the API reads and writes.
 
@@ -102,6 +108,8 @@ The data models the API reads and writes.
 - [EstimateResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-estimate-response/)
 - [KnowledgeSearchResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-knowledge-search-response/)
 - [QuoteCreateRequest](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-quote-create-request/)
+- [SupportHandoffRequest](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-support-handoff-request/)
+- [SupportHandoffResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-support-handoff-response/)
 - [V1EstimateResponse](https://apis.io/schemas/ablakarajanlat-hu/ablakarajanlat-hu-v1-estimate-response/)
 
 #### JSON-LD (1)
@@ -120,20 +128,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Ablakarajanlat Hu Authentication](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-authentication/)
-- [Ablakarajanlat Hu Domain Security](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-domain-security/)
+- [Ablak Árajánlat Authentication](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-authentication/)
+- [Ablak Árajánlat Domain Security](https://apis.io/security/ablakarajanlat-hu/ablakarajanlat-hu-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Ablakarajanlat Hu Scopes](https://apis.io/scopes/ablakarajanlat-hu/ablakarajanlat-hu-scopes/)
+- [Ablak Árajánlat Scopes](https://apis.io/scopes/ablakarajanlat-hu/ablakarajanlat-hu-scopes/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Ablakarajanlat Hu Rate Limits](https://apis.io/rate-limits/ablakarajanlat-hu/ablakarajanlat-hu-rate-limits/)
+- [Ablak Árajánlat Rate Limits](https://apis.io/rate-limits/ablakarajanlat-hu/ablakarajanlat-hu-rate-limits/)
 
 ## Where to find this API
 
@@ -146,32 +154,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 37.4** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 59.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 18.9 |
-| Developer ergonomics | 46.9 |
+| Discoverability | 71.7 |
+| Contract quality | 62.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 42.3 |
 | Access clarity | 0.0 |
 
-**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+**Agent readiness 46.0** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | bearer (partial credit) |
 | Idempotency | verified |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | verified |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -182,8 +190,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | paginated |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 26.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ablakarajanlat-hu/](https://apis.io/providers/ablakarajanlat-hu/).
 
